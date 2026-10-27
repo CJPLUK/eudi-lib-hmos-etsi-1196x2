@@ -1,0 +1,1 @@
+package ohos_app_cangjie_eudi_cjetsi_1196x2.lote_data_model

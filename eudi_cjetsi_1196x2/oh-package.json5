@@ -1,0 +1,10 @@
+{
+  "name": "eudi_cjetsi_1196x2",
+  "version": "1.0.0",
+  "description": "EUDI ETSI 119 6x2 Cangjie HAR",
+  "main": "",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+  }
+}

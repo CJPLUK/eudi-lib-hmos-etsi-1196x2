@@ -1,0 +1,29 @@
+eudi_lib_etsi_1196x2
+Copyright (c) 2026 the eudi_lib_etsi_1196x2 contributors
+
+This product is a Cangjie (仓颉) ETSI TS 119 6x2 consultation / LoTE / PKIX
+module for the EU Digital Identity Wallet on HarmonyOS.
+
+The interface surface is a Cangjie port of the EU Digital Identity Wallet
+Kotlin Multiplatform library:
+
+    eudi-lib-kmp-etsi-1196x2
+    Copyright (c) European Commission
+    Licensed under the Apache License, Version 2.0
+    https://github.com/eu-digital-identity-wallet/eudi-lib-kmp-etsi-1196x2
+
+This product depends on and/or bundles the following third-party software:
+
+  - cangjie-stdx (Apache License 2.0) — Cangjie extended standard library;
+    stdx.crypto.x509, stdx.encoding.json, and stdx.net.http back certificate,
+    JSON, and HTTP paths. Bundled under entry/libs/stdx/.
+
+  - OpenSSL runtime libraries (libcrypto_openssl.z.so, libssl_openssl.z.so)
+    and libsecurec.so, bundled under entry/libs/arm64-v8a/ for on-device
+    execution of stdx.crypto (loaded via dlopen at runtime).
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this project except in compliance with the License. You may obtain a
+copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
